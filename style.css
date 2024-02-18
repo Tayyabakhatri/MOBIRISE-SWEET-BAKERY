@@ -1,0 +1,235 @@
+@font-face {
+    font-family: "dm";
+    src: url(fonts/DMSans-VariableFont_opsz\,wght.ttf);
+}
+nav{
+    display: flex;
+   /* margin: 30px 35px; */
+/* padding-left: 110px; */
+
+    width: 100%;
+    height: 180px;
+    justify-content: space-around;
+}
+.container{
+    display: flex;
+    /* width: 930px;
+    height: 120px; */
+    /* padding: 0px 15px; */
+    justify-content: space-around;
+    /* padding-left: 100px; */
+    /* padding-right:100px ; */
+}
+
+.logo img{
+    width: 150px;
+    height: 150px;
+   padding-top: 15px;
+   padding-bottom: 15px;
+   padding-right: 30px;
+   
+}
+.navmenu a{
+    text-decoration: none;
+    color: grey;
+    margin: 10px;
+    font-size: medium;
+    font-family: dm;
+    
+    
+    
+}
+.navmenu{
+   
+    margin-top:80px ;
+    margin-right: 30px;
+   
+}
+.order button{
+   border: none;
+   background-color: transparent;
+   width: 150px;
+   height: 45px;
+   border-radius: 30px;
+   background-color: rgb(92, 201, 244);
+   color: white;
+   font-size: medium;
+   margin-top:70px ;
+   justify-content: right;
+   margin-left: 50px;}
+   
+
+
+.navicon{
+    margin-top: 82px;
+    margin-left: 40px;
+   
+    width: 150px;
+}
+.navicon i{
+    margin-right: 30px;
+}
+.poster{
+    background-image: url(images/bakery-1920x1280.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 900px;
+
+   
+   
+}
+.W{
+    font-family: dm;
+    color: white;
+    font-weight: 900;
+    font-size: 85px;
+    line-height: 8px;    
+}
+.greet{
+    /* margin-left: 80px; */
+   padding-top: 8%;
+   padding-left: 13%;
+}
+.time{
+    padding-left: 13%;
+    margin-top: 20px;
+} 
+.s{
+    padding-left: 9%;
+   
+}
+.s button{
+    width: 200px; 
+    font-size: larger;
+
+}
+
+.time p{
+    color: white;
+    font-family: dm;
+    line-height: 10px;
+    font-weight: 700;
+    font-size: large;word-spacing: 5px;
+    
+}
+.items{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 280px;
+    
+}
+.items p{
+    text-align: center;
+    font-family: dm;
+    
+}
+.img img{
+    border-radius: 9px;
+    width: 160px;
+    height: 115px;
+    
+}
+.heading{
+    font-family: dm;
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    text-align: center;
+    margin: 80px 0px;
+}
+.magic{
+    width: 100%;
+    height: 85vh;
+    background-color: rgb(99, 199, 238);
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.borderdiv{
+    width: 750px;
+    height: 450px;
+    
+    /* background: white; */
+    /* border-width: 2px;
+    border-style: solid;
+    border-color:white ; */
+    border: 2px solid white;
+    border-radius: 7px;
+  
+ 
+}
+.b button{
+    border: 2px solid white;
+    padding: 0;
+    margin: 0;
+    
+  
+}
+.b{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+h1{
+    padding: 0;
+    margin: 0;
+    font-family: dm;
+    color: white;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+}
+.lorem p{
+    color: white;
+    font-family: sans-serif;
+    /* text-align: justify; */
+    
+}
+.lorem{
+ 
+    display: flex;
+    justify-content: center;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+}
+.our h1{
+    color: black;
+    font-family: dm;
+    word-spacing: 2px;
+}
+.list1{
+    display: flex;
+   width: 850px;
+   justify-content: space-around;
+   
+}
+.list2{
+    display: flex;
+   width: 850px;
+   justify-content: space-around;
+   
+}
+.list1 div img{
+    border-radius: 9px;
+    width: 200px;
+    height: 145px;}
+.list2 div img{
+    border-radius: 9px;
+    width: 200px;
+    height: 145px;
+}
+.list-container{
+    display: flex;
+    justify-content: center;
+}
+/* .list{
+    display: flex;
+    justify-content: center;
+} */
+
